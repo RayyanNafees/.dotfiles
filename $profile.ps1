@@ -13,11 +13,11 @@ Invoke-Expression (&starship init powershell)
 Invoke-Expression (&scoop-search --hook)
 
 # Aliases
-Set-Alias els eza
+Set-Alias cc gcc
 Set-Alias lsa eza
 Set-Alias rb recycle-bin
 Set-Alias pn pnpm
-Set-Alias f fuck
+Set-Alias py python
 
 # ADVANCED CLIS
 
@@ -38,10 +38,12 @@ Function tiny ($url){
 
 # @qr
 Function send($path){ qr (ffsend u -q $path --copy) -s}
+
 Function rmf{ foreach ($path in $args) {rm -Force -Recurse $path}}
 
 Function lsd {exa @args --icons}
 Function sfs {scoop-fsearch @args}
+Function sin ($app) {scoop info $app  -v}
 Function proxy ($port, $subdomain) {ssh -R ($subdomain+':80:127.0.0.1:'+$port) serveo.net}
 
 # Pshazz
