@@ -1,7 +1,7 @@
 
 Import-Module git-aliases -DisableNameChecking
 Import-Module PoShFuck
-# Import-Module Terminal-Icons
+Import-Module Terminal-Icons
 Import-Module scoop-completion
 # PowerToys CommandNotFound module
 Import-Module "C:\Program Files\PowerToys\WinGetCommandNotFound.psd1"
@@ -43,7 +43,10 @@ Function send($path){ qr (ffsend u -q $path --copy) -s}
 Function rmf{ foreach ($path in $args) {rm -Force -Recurse $path}}
 
 Function lsd {exa @args --icons}
+
 Function sfs {scoop-fsearch @args}
+Function sup {scoop status; scoop update; noti -t "Scoop update" -m "Scoop Update Status logged!"}
+
 Function node-nue {node (which nue)}
 Function sin ($app) {scoop info $app  -v}
 Function proxy ($port, $subdomain) {ssh -R ($subdomain+':80:127.0.0.1:'+$port) serveo.net}
@@ -160,4 +163,3 @@ if (!(Get-Command 'Import-PowerShellDataFile' -ErrorAction Ignore)) {
       return $Path
     } 
 } 
-
