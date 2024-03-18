@@ -1,3 +1,15 @@
+if (!(Get-Command 'Import-PowerShellDataFile' -ErrorAction Ignore)) {
+    function Import-PowerShellDataFile {
+      [CmdletBinding()]
+      Param (
+          [Parameter(Mandatory = $true)]
+          
+[Microsoft.PowerShell.DesiredStateConfiguration.ArgumentToConfigurationDataTransformation()]
+          [hashtable] $Path
+      )
+      return $Path
+    } 
+} 
 
 Import-Module git-aliases -DisableNameChecking
 Import-Module PoShFuck
@@ -12,10 +24,9 @@ $env:FZF_DEFAULT_OPTS = "--preview 'bat --color=always {}'"
 # Invokes
 Invoke-Expression (&starship init powershell)
 Invoke-Expression (&scoop-search --hook)
-
+# Invoke-Expression "$(direnv hook pwsh)"
 # Aliases
 Set-Alias cc gcc
-Set-Alias lsa eza
 Set-Alias rb recycle-bin
 Set-Alias pn pnpm
 Set-Alias py python
@@ -42,7 +53,7 @@ Function send($path){ qr (ffsend u -q $path --copy) -s}
 
 Function rmf{ foreach ($path in $args) {rm -Force -Recurse $path}}
 
-Function lsd {exa @args --icons}
+Function lsa {exa @args --icons}
 
 Function sfs {scoop-fsearch @args}
 Function sup {scoop status; scoop update; noti -t "Scoop update" -m "Scoop Update Status logged!"}
@@ -51,6 +62,14 @@ Function node-nue {node (which nue)}
 Function sin ($app) {scoop info $app  -v}
 Function proxy ($port, $subdomain) {ssh -R ($subdomain+':80:127.0.0.1:'+$port) serveo.net}
 
+Function pastes ($file, $content){
+   echo $content | ssh pastes.sh $file
+}
+Function prose ($file, $content){
+  echo $content > $file;
+  
+   scp $file nafees@prose.sh:/
+}
 # Pshazz
 #try { $null = gcm pshazz -ea stop; pshazz init } catch { }
 
@@ -150,16 +169,3 @@ if ($PSVersionTable.PSVersion -ge '7.4') {
   }
   
 }
-
-if (!(Get-Command 'Import-PowerShellDataFile' -ErrorAction Ignore)) {
-    function Import-PowerShellDataFile {
-      [CmdletBinding()]
-      Param (
-          [Parameter(Mandatory = $true)]
-          
-[Microsoft.PowerShell.DesiredStateConfiguration.ArgumentToConfigurationDataTransformation()]
-          [hashtable] $Path
-      )
-      return $Path
-    } 
-} 
