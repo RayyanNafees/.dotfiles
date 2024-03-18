@@ -12,7 +12,7 @@ gh extension list > gh-ext.txt
 pnpm list -g > pnpm-global.txt
 '✅ pnpm global scripts exported'
 
-'\n\n\n\t\t\tCommiting changes...\n\n\n\n'
+"\n\n\n\t\t\tCommiting changes...\n\n\n\n"
 git add .
 git commit -am "synced!"
 git push
