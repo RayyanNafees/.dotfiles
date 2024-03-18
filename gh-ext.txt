@@ -1,0 +1,7 @@
+gh changelog	chelnak/gh-changelog	v0.15.1
+gh chat	vilmibm/gh-chat	v1.2.1
+gh contribs	mintarchit/gh-contribs	020e01a3
+gh dash	dlvhdr/gh-dash	v3.14.0
+gh download	yuler/gh-download	62b59265
+gh inspire	lakuapik/gh-inspire	b427d37a
+gh ls	wuwe1/gh-ls	97c88228
