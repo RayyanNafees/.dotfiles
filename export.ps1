@@ -17,7 +17,7 @@ pnpm list -g > pnpm-global.txt
 		Commiting Changes to Github
 
 '
-
+git status
 git add .
 git commit -am "synced!"
 git push
