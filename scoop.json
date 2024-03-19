@@ -73,8 +73,8 @@
         {
             "Source": "main",
             "Info": "",
-            "Updated": "2024-03-08T14:00:28.5625357+05:30",
-            "Version": "1.6.8",
+            "Updated": "2024-03-20T02:50:44.9128041+05:30",
+            "Version": "1.6.9",
             "Name": "clink"
         },
         {
@@ -199,8 +199,8 @@
         {
             "Source": "main",
             "Info": "",
-            "Updated": "2024-03-18T07:03:11.5693761+05:30",
-            "Version": "32.0.0",
+            "Updated": "2024-03-20T02:50:54.3927524+05:30",
+            "Version": "33.0.0",
             "Name": "fx"
         },
         {
@@ -535,8 +535,8 @@
         {
             "Source": "extras",
             "Info": "",
-            "Updated": "2024-02-25T00:00:06.0501842+05:30",
-            "Version": "1.5.8",
+            "Updated": "2024-03-20T02:51:23.3001111+05:30",
+            "Version": "1.5.11",
             "Name": "obsidian"
         },
         {
@@ -647,8 +647,8 @@
         {
             "Source": "main",
             "Info": "",
-            "Updated": "2024-02-07T02:17:56.3890181+05:30",
-            "Version": "7.0.15",
+            "Updated": "2024-03-20T02:51:32.4150276+05:30",
+            "Version": "7.2.4",
             "Name": "redis"
         },
         {
@@ -797,13 +797,6 @@
             "Updated": "2024-01-17T16:12:55.4204662+05:30",
             "Version": "6.00",
             "Name": "unzip"
-        },
-        {
-            "Source": null,
-            "Info": "Install failed",
-            "Updated": "2024-03-20T00:57:23.1918632+05:30",
-            "Version": null,
-            "Name": "wasmer"
         },
         {
             "Source": "main",
