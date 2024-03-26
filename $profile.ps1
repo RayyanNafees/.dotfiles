@@ -30,6 +30,7 @@ Set-Alias cc gcc
 Set-Alias rb recycle-bin
 Set-Alias pn pnpm
 Set-Alias py python
+Set-Alias code vscodium
 
 # ADVANCED CLIS
 
@@ -70,6 +71,9 @@ Function prose ($file, $content){
   
    scp $file nafees@prose.sh:/
 }
+
+Function glog { git log -p --ext-diff }
+
 # Pshazz
 #try { $null = gcm pshazz -ea stop; pshazz init } catch { }
 
