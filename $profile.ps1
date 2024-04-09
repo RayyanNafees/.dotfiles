@@ -74,6 +74,15 @@ Function prose ($file, $content){
 
 Function glog { git log -p --ext-diff }
 
+Function steal ($name){
+    git remote remove origin
+    gh repo create --private "unboxinnovation/$name"
+    git remote add origin "https://github.com/unboxinnovation/$name.git"
+    git add .
+    git commit -am "stolen"
+    git push origin --all
+}
+
 # Pshazz
 #try { $null = gcm pshazz -ea stop; pshazz init } catch { }
 
