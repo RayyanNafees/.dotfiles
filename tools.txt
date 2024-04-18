@@ -1,15 +1,9 @@
-
-        Directory: C:\Tools
-
-
-Mode                LastWriteTime         Length Name
-----                -------------         ------ ----
--a---       10 Mar 2024   2:26 PM       19058176 󰣆  daytona-cli.exe
--a---       10 Mar 2024   2:27 PM       92276224 󰣆  daytona.exe
--a---       27 Mar 2024  10:32 AM        1929216 󰣆  pack.exe
--a---       13 Mar 2024  10:43 PM       51070464 󰣆  pocketbase.exe
--a---        4 Feb 2024   3:46 PM          95232 󰣆  scoop-manifest.exe
--a---        4 Feb 2024   3:46 PM            612 󰞷  scoop-manifest.ps1
--a---       26 Dec 2023   5:34 AM      112553984 󰣆  ttcli.exe
--a---        9 Mar 2024   3:06 AM       81340928 󰣆  zrok.exe
-
+[38;5;2m[1m backrest.exe[0m
+[38;5;2m[1m daytona-cli.exe[0m
+[38;5;2m[1m daytona.exe[0m
+[38;5;2m[1m pack.exe[0m
+[38;5;2m[1m pocketbase.exe[0m
+[38;5;2m[1m scoop-manifest.exe[0m
+[38;5;2m[1m scoop-manifest.ps1[0m
+[38;5;2m[1m ttcli.exe[0m
+[38;5;2m[1m zrok.exe[0m
