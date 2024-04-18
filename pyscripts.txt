@@ -1,17 +1,18 @@
- activate-global-python-argcomplete  [38;5;2m[1m normalizer.exe[0m                                [38;5;2m[1m wddbfs.exe[0m
-[38;5;2m[1m buku.exe[0m                            [38;5;2m[1m openai.exe[0m                                    [38;5;2m[1m wheel.exe[0m
-[38;5;2m[1m bukuserver.exe[0m                      [38;5;2m[1m pgcli.exe[0m                                     [38;5;2m[1m wsgidav.exe[0m
-[38;5;2m[1m cheroot.exe[0m                         [38;5;2m[1m pip.exe[0m                                       
-[38;5;2m[1m climage.exe[0m                         [38;5;2m[1m pip3.12.exe[0m                                   
-[38;5;2m[1m cmark.exe[0m                           [38;5;2m[1m pip3.exe[0m                                      
-[38;5;2m[1m dmypy.exe[0m                           [38;5;2m[1m pipenv-resolver.exe[0m                           
-[38;5;2m[1m doesitcache.exe[0m                     [38;5;2m[1m pipenv.exe[0m                                    
-[38;5;2m[1m dooit.exe[0m                           [38;5;2m[1m pipx.exe[0m                                      
- dul-receive-pack                    [38;5;2m[1m pkginfo.exe[0m                                   
- dul-upload-pack                     [38;5;2m[1m poetry.exe[0m                                    
+ activate-global-python-argcomplete  [38;5;2m[1m pgcli.exe[0m                                     [38;5;2m[1m wheel.exe[0m
+[38;5;2m[1m buku.exe[0m                            [38;5;2m[1m pip.exe[0m                                       [38;5;2m[1m wsgidav.exe[0m
+[38;5;2m[1m bukuserver.exe[0m                      [38;5;2m[1m pip3.12.exe[0m                                   
+[38;5;2m[1m cheroot.exe[0m                         [38;5;2m[1m pip3.exe[0m                                      
+[38;5;2m[1m climage.exe[0m                         [38;5;2m[1m pipenv-resolver.exe[0m                           
+[38;5;2m[1m cmark.exe[0m                           [38;5;2m[1m pipenv.exe[0m                                    
+[38;5;2m[1m dmypy.exe[0m                           [38;5;2m[1m pipx.exe[0m                                      
+[38;5;2m[1m doesitcache.exe[0m                     [38;5;2m[1m pkginfo.exe[0m                                   
+[38;5;2m[1m dooit.exe[0m                           [38;5;2m[1m poetry.exe[0m                                    
+ dul-receive-pack                    [38;5;2m[1m pyftmerge.exe[0m                                 
+ dul-upload-pack                     [38;5;2m[1m pyftsubset.exe[0m                                
 [38;5;2m[1m dulwich.exe[0m                         [38;5;2m[1m pygmentize.exe[0m                                
 [38;5;2m[1m f2py.exe[0m                            [38;5;2m[1m pyjson5.exe[0m                                   
-[38;5;2m[1m faker.exe[0m                           [38;5;2m[1m pyproject-build.exe[0m                           
+[38;5;2m[1m faker.exe[0m                           [38;5;2m[1m pylyzer.exe[0m                                   
+[38;5;2m[1m fonttools.exe[0m                       [38;5;2m[1m pyproject-build.exe[0m                           
 [38;5;2m[1m frogmouth.exe[0m                        python-argcomplete-check-easy-install-script  
 [38;5;2m[1m gpterm.exe[0m                           register-python-argcomplete                   
 [38;5;2m[1m harlequin.exe[0m                        rentry                                        
@@ -23,6 +24,8 @@
 [38;5;2m[1m ipython3.exe[0m                        [38;5;2m[1m stubtest.exe[0m                                  
 [38;5;2m[1m keyring.exe[0m                         [38;5;2m[1m tabulate.exe[0m                                  
 [38;5;2m[1m litecli.exe[0m                         [38;5;2m[1m tqdm.exe[0m                                      
-[38;5;2m[1m markdown-it.exe[0m                     [38;5;2m[1m userpath.exe[0m                                  
-[38;5;2m[1m mypy.exe[0m                            [38;5;2m[1m uv.exe[0m                                        
-[38;5;2m[1m mypyc.exe[0m                           [38;5;2m[1m virtualenv.exe[0m                                
+[38;5;2m[1m markdown-it.exe[0m                     [38;5;2m[1m ttx.exe[0m                                       
+[38;5;2m[1m mypy.exe[0m                            [38;5;2m[1m userpath.exe[0m                                  
+[38;5;2m[1m mypyc.exe[0m                           [38;5;2m[1m uv.exe[0m                                        
+[38;5;2m[1m normalizer.exe[0m                      [38;5;2m[1m virtualenv.exe[0m                                
+[38;5;2m[1m openai.exe[0m                          [38;5;2m[1m wddbfs.exe[0m                                    

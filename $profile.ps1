@@ -30,6 +30,7 @@ Set-Alias cc gcc
 Set-Alias rb recycle-bin
 Set-Alias pn pnpm
 Set-Alias py python
+Set-Alias ipy ipython
 Set-Alias code vscodium
 
 # ADVANCED CLIS
