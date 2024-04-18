@@ -1,9 +1,2 @@
-[38;5;2m[1m backrest.exe[0m
-[38;5;2m[1m daytona-cli.exe[0m
-[38;5;2m[1m daytona.exe[0m
-[38;5;2m[1m pack.exe[0m
-[38;5;2m[1m pocketbase.exe[0m
-[38;5;2m[1m scoop-manifest.exe[0m
-[38;5;2m[1m scoop-manifest.ps1[0m
-[38;5;2m[1m ttcli.exe[0m
-[38;5;2m[1m zrok.exe[0m
+[38;5;2m[1m backrest.exe[0m     [38;5;2m[1m daytona.exe[0m  [38;5;2m[1m pocketbase.exe[0m      [38;5;2m[1m scoop-manifest.ps1[0m  [38;5;2m[1m zrok.exe[0m
+[38;5;2m[1m daytona-cli.exe[0m  [38;5;2m[1m pack.exe[0m     [38;5;2m[1m scoop-manifest.exe[0m  [38;5;2m[1m ttcli.exe[0m           
