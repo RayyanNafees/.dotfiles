@@ -11,7 +11,7 @@ gh extension list > gh-ext.txt
 '✅ Github CLI extensions exported'
 pnpm list -g > pnpm-global.txt
 '✅ pnpm global scripts exported'
-lsd -1 C:/Tools > tools.txt
+lsd C:/Tools > tools.txt
 '✅ Global C:/Tools exe(s) exports'
 
 '
