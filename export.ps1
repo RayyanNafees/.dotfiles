@@ -13,10 +13,13 @@ pnpm list -g > pnpm-global.txt
 '✅ pnpm global scripts exported'
 lsd C:/Tools > tools.txt
 '✅ Global C:/Tools exe(s) exports'
+cat "$nupath/config.nu" > nushell/config.nu
+cat "$nupath/env.nu" > nushell/env.nu
+'✅ NuShell config files exported'
 
 '
 
-		Commiting Changes to Github
+		Commiting Changes to Github ��
 
 '
 git status
