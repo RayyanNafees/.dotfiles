@@ -33,6 +33,9 @@ Set-Alias py python
 Set-Alias ipy ipython
 Set-Alias code vscodium
 
+# Variables
+$nupath = 'C:/Users/nafee/AppData/Roaming/nushell'
+
 # ADVANCED CLIS
 
 # @jspm - Deno Package manager lol
@@ -58,6 +61,7 @@ Function rmf{ foreach ($path in $args) {rm -Force -Recurse $path}}
 Function lsa {exa @args --icons}
 
 Function sfs {scoop-fsearch @args}
+Function catimg {imgcatr -a truecolor @args}
 Function sup {scoop status; scoop update; noti -t "Scoop update" -m "Scoop Update Status logged!"}
 
 Function node-nue {node (which nue)}
@@ -428,3 +432,8 @@ filter __zeit_escapeStringWithSpecialChars {
 }
 
 Register-ArgumentCompleter -CommandName 'zeit' -ScriptBlock $__zeitCompleterBlock
+
+$env:CARAPACE_BRIDGES = 'zsh,fish,bash,inshellisense' # optional
+Set-PSReadLineOption -Colors @{ "Selection" = "`e[7m" }
+Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
+carapace _carapace | Out-String | Invoke-Expression

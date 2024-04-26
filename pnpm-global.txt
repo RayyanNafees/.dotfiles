@@ -6,6 +6,6 @@ dependencies:
 aicommits 1.11.0
 create-react-app-offline 1.2.1
 jspm 3.2.0
-pnpm 8.15.5
+pnpm 9.0.2
 prettier 3.1.0
 typescript 5.4.3
