@@ -19,7 +19,7 @@ cat "$nupath/env.nu" > nushell/env.nu
 
 '
 
-		Commiting Changes to Github 
+		  Commiting Changes to Github 
 
 '
 git status
