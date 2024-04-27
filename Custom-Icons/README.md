@@ -1,5 +1,6 @@
 # Custom Icons
-Custom files & folder icons defined to be used with `terminal-icons` for `MonoLisa` font
+Custom files & folder icons defined to be used with [terminal-icons](https://github.com/devblackops/Terminal-Icons)
+for `MonoLisa` font within Windows 11 Terminal
 
 ## Setup
 
