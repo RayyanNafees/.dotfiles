@@ -26,7 +26,7 @@ cat "$nupath/env.nu" > nushell/env.nu
 '✅ NuShell config files exported'
 cp $icons Custom-Icons
 '✅ Custom-Icons exported'
-cp C:\User\nafee\AppData\Roaming\aichat\config.yaml aichat
+cp ~\AppData\Roaming\aichat\config.yaml aichat
 '✅ AIchat config exported'
 '
 
