@@ -24,9 +24,15 @@ $icons = '~/OneDrive/Documents/PowerShell/Modules/Custom-Icons/Custom-Icons.psm1
 Head-over to nerd-fonts' icons cheatsheet to find more fonts: https://www.nerdfonts.com/cheat-sheet
 
 Currently the following iconsets are supported for `MonoLisa NF Mono` font:
-- nf-dev
-- nf-seti
-- nf-md
+- ✅ nf-dev
+- ✅ nf-seti
+- ✅ nf-md
+- ✅ nf-fae
+
+And the following iconsets dont seem to work with `MonoLisa NF Mono`: 
+- ❌ nf-fa
+- ❌ nf-mdi
+> Test them out on a different font, namely `CaskaydiaCove Nerd Font` in this [gist](https://gist.github.com/markwragg/6301bfcd56ce86c3de2bd7e2f09a8839)
 
 Now edit the Custom-Icons file for defining nf icons for folders/files `micro $icons`:
 
