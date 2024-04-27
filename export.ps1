@@ -1,3 +1,8 @@
+if ((Get-Location | Format-Wide -Property Path) -ne 'D:\.dotfiles'){
+	Set-Location 'D:\.dotfiles'
+}
+
+
 'Exporting dotfiles...'
 scoop export > scoop.json
 '✅ Scoop exported'
