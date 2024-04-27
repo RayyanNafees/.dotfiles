@@ -28,6 +28,7 @@ Currently the following iconsets are supported for `MonoLisa NF Mono` font:
 - nf-md
 
 Now edit the Custom-Icons file for defining nf icons for folders/files `micro $icons`:
+
 ```pwsh
 Set-TerminalIconsIcon -Directory Workers -Glyph nf-md-cloud
 
@@ -38,6 +39,10 @@ Set-TerminalIconsIcon -FileName <string> -Glyph <string>
 
 Set-TerminalIconsIcon -Directory <string> -Glyph <string>
 ```
+
+For seeing the changes rerun the shell with `pwsh`, `zsh`, `sh`, `nu` etc commands
+doesn't seem to work when doing `. $profile`
+
 
 ## Todo:
 
