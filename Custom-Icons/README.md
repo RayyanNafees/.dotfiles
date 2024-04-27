@@ -28,6 +28,7 @@ Currently the following iconsets are supported for `MonoLisa NF Mono` font:
 - ✅ nf-seti
 - ✅ nf-md
 - ✅ nf-fae
+- ✅ nf-custom
 
 And the following iconsets dont seem to work with `MonoLisa NF Mono`: 
 - ❌ nf-fa
