@@ -16,6 +16,8 @@ lsd C:/Tools > tools.txt
 cat "$nupath/config.nu" > nushell/config.nu
 cat "$nupath/env.nu" > nushell/env.nu
 '✅ NuShell config files exported'
+cp $icons Custom-Icons
+'✅ Custom-Icons exported'
 
 '
 

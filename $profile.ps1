@@ -14,6 +14,7 @@ if (!(Get-Command 'Import-PowerShellDataFile' -ErrorAction Ignore)) {
 Import-Module git-aliases -DisableNameChecking
 Import-Module PoShFuck
 Import-Module Terminal-Icons
+Import-Module Custom-Icons # Custom Terminal Icons
 Import-Module scoop-completion
 # PowerToys CommandNotFound module
 Import-Module "C:\Program Files\PowerToys\WinGetCommandNotFound.psd1"
@@ -33,8 +34,11 @@ Set-Alias py python
 Set-Alias ipy ipython
 Set-Alias code vscodium
 
-# Variables
-$nupath = 'C:/Users/nafee/AppData/Roaming/nushell'
+# VARIABLES
+## Folders
+$nupath = '~/AppData/Roaming/nushell'
+## Files
+$icons = '~/OneDrive/Documents/PowerShell/Modules/Custom-Icons/Custom-Icons.psm1'
 
 # ADVANCED CLIS
 
