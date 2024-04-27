@@ -1,8 +1,8 @@
 # Current Working Directory
-$cwd = Get-Location | Format-Wide -Property Path
+$cwd = pwd
 
 if ($cwd -ne 'D:\.dotfiles'){
-	Set-Location 'D:\.dotfiles'
+	cd 'D:\.dotfiles'
 }
 
 
@@ -37,5 +37,5 @@ git add .
 git commit -am "synced!"
 git push
 
-Set-Location $cwd
+cd $cwd
 '✨ Changes Pushed ✨'
