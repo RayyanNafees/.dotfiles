@@ -21,14 +21,14 @@ Set-TerminalIconsIcon -Directory Next -Glyph 'nf-md-react'
 Set-TerminalIconsIcon -Directory Expo -Glyph 'nf-dev-react'
 
 #  Godot
-Set-TerminalIconsIcon -Directory Godot -Glyph 'nf-seti-godot'
+Set-TerminalIconsIcon -Directory Godot -Glyph 'nf-seti-godot' 
 
 # Golang
 Set-TerminalIconsIcon -Directory Go -Glyph 'nf-md-language_go'
 
 # Deno
 Set-TerminalIconsIcon -Directory Deno -Glyph 'nf-md-google_downasaur'
-# .pnpm-store
-Set-TerminalIconsIcon -Directory .pnpm-store -Glyph 'nf-custom-folder_npm'
+#  .pnpm-store
+Set-TerminalIconsIcon -Directory .pnpm-store -Glyph 'nf-md-npm'
 
 
