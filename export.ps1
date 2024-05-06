@@ -20,8 +20,6 @@ gh extension list > gh-ext.txt
 pnpm list -g > pnpm-global.txt
 '✅ pnpm global scripts exported'
 lsd C:/Tools > tools.txt
-'✅ Global C:/Tools exe(s) exports'
-lsd C:/Eget > eget.txt
 '✅ Global C:/Eget exe(s) exports'
 cat "$nupath/config.nu" > nushell/config.nu
 cat "$nupath/env.nu" > nushell/env.nu

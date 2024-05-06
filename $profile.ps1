@@ -66,6 +66,7 @@ Function lsa {exa @args --icons}
 
 Function sfs {scoop-fsearch @args}
 Function catimg {imgcatr -a truecolor @args}
+Function eg {eget --to C:/Eget @args}
 Function sup {scoop status; scoop update; noti -t "Scoop update" -m "Scoop Update Status logged!"}
 
 Function node-nue {node (which nue)}
