@@ -37,7 +37,7 @@ lsd "$env:LocalAppData\Microsoft\PowerToys\PowerToys Run\Plugins" > tools.txt
 '
 git status
 git add .
-git commit -am "synced!"
+git commit -am @args
 git push
 
 cd $cwd
