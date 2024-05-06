@@ -1,2 +1,1 @@
-[38;5;4m[1m Everything[0m  [38;5;4m[1m InputTyper[0m     [38;5;4m[1m Scoop[0m              [38;5;4m[1m Winget[0m
-[38;5;4m[1m GitHubRepo[0m  [38;5;4m[1m ProcessKiller[0m  [38;5;4m[1m WebSearchShortcut[0m  
+[38;5;4m[1m Everything[0m  [38;5;4m[1m GitHubRepo[0m  [38;5;4m[1m InputTyper[0m  [38;5;4m[1m ProcessKiller[0m  [38;5;4m[1m Scoop[0m  [38;5;4m[1m WebSearchShortcut[0m  [38;5;4m[1m Winget[0m
