@@ -28,6 +28,8 @@ cp $icons Custom-Icons
 '✅ Custom-Icons exported'
 cp ~\AppData\Roaming\aichat\config.yaml aichat
 '✅ AIchat config exported'
+lsd "$env:LocalAppData\Microsoft\PowerToys\PowerToys Run\Plugins" > tools.txt
+'✅ PowerToys Run plugins exported'
 '
 
 		  Commiting Changes to Github 

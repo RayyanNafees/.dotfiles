@@ -1,4 +1,7 @@
 model: gemini
 clients:
-- type: gemini
-  api_key: AIzaSyCibTJbIro09xwYKCSLnkrt2VOdBDC89sk
+  - type: gemini
+    api_key: AIzaSyCibTJbIro09xwYKCSLnkrt2VOdBDC89sk
+
+block_threshold:
+  - value: 0
