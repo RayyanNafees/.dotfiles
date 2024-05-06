@@ -1,1 +1,1 @@
-[38;5;2m[1m gtt.exe[0m  [38;5;2m[1m pvw.exe[0m  [38;5;2m[1m zeit.exe[0m
+[38;5;2m[1m gtt.exe[0m  [38;5;2m[1m slides.exe[0m  [38;5;2m[1m zeit.exe[0m
