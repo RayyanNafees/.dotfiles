@@ -9,12 +9,15 @@ if ($cwd -ne 'D:\.dotfiles'){
 'Exporting dotfiles...'
 scoop export > scoop.json
 '✅ Scoop exported'
+winget export -o winget.json
+'✅ Winget exported'
 cat $profile > '$profile.ps1'
 '✅ Powershell $profile exported'
 lsd C:\Users\nafee\scoop\apps\python\current\Scripts > pyscripts.txt
 '✅ Python installed scripts exported'
 lsd F:\packages\go\bin > goscripts.txt
 '✅ Golang installed scripts exported'
+lsd C:\Eget > eget.txt
 gh extension list > gh-ext.txt
 '✅ Github CLI extensions exported'
 pnpm list -g > pnpm-global.txt
